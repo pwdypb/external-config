@@ -1,13 +1,13 @@
 spring:
   application:
-    name: config-server
+    name: quince-config
   cloud:
     config:
       server:
         git:
 #          uri: file://${HOME}/config-repo
 #          uri: https://github.com/ericdahl/spring-cloud-config-example
-          uri: file://d/booty
+          uri: https://github.com/pwdypb/external-config
 
           # Search in the 'config' directory of the repo. This generally wouldn't
           # be used because the configs would be in the root directory, but because
