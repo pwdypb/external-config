@@ -1,3 +1,6 @@
 info:
   foo: "hey-ho"
   someList: [2, 3, 7]
+  
+foo:
+  bar: true
